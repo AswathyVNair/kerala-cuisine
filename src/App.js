@@ -18,7 +18,7 @@ var dishes = {
     {
       dish: "Idiyappam and Egg curry ",
       description:
-        "The soft steamed idiyappam in combination with traditionally cooked egg curry is one of the delicate brakfast for everyone who loves Kerala Cuisine.",
+        "The soft steamed idiyappam in combination with traditionally cooked egg curry is one of the delicate breakfast for everyone who loves Kerala Cuisine.",
       rating: "5/5"
     },
     {
@@ -30,7 +30,7 @@ var dishes = {
     {
       dish: "Ela Ada",
       description:
-        "Rice parcels encased in a dough made of rice flour, with fresh coconut and jaggery fillings, steamed in banana leaf ",
+        "Rice parcels encased in a dough made of rice flour, with fresh coconut and jaggery fillings, steamed in banana leaf. ",
       rating: "4.8/5"
     }
   ],
@@ -43,19 +43,19 @@ var dishes = {
     },
     {
       dish: "Uzhunnu Vada",
-      description: "Crispy,spicy,vegetarian snack",
+      description: "Crispy, spicy, vegetarian snack.",
       rating: "4.5/5"
     },
     {
       dish: "Unnakaya",
       description:
-        "Crispy exterior acts as the perfect shield for a sweet liquid mix inside ",
+        "Crispy exterior acts as the perfect shield for a sweet liquid mix inside. ",
       rating: "4.5/5"
     },
     {
       dish: "Parippu Vada",
       description:
-        "Crispy,spicy and yummy snack made with lentils is a perfect tea time snack.",
+        "Crispy, spicy and yummy snack made with lentils is a perfect tea time snack.",
       rating: "4.8/5"
     },
     {
@@ -110,7 +110,7 @@ export default function App() {
     <div className="App">
       <h1 style={{ padding: "1rem", color: "#65A30D" }}>🍝 Kerala Cuisine</h1>
       <small style={{ padding: "1rem", fontWeight: "bold" }}>
-        Know more about traditional dishes of kerala.Select a genre to get
+        Know more about traditional dishes of Kerala. Select a genre to get
         started
       </small>
       <div>
@@ -124,7 +124,8 @@ export default function App() {
                 backgroundColor: "#65A30D",
                 fontWeight: "bold",
                 fontSize: "large",
-                border: "none"
+                border: "none",
+                color: "white"
               }}
               onClick={() => genreClickHandler(item)}
             >
